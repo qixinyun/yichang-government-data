@@ -3,6 +3,11 @@ namespace GovernmentData\Model;
 
 trait GovernmentDataTrait
 {
+
+    protected $subjectCategory;
+
+    protected $type;
+    
     public function setSubjectCategory($subjectCategory)
     {
         $this->subjectCategory = in_array(
