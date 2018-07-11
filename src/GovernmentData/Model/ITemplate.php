@@ -3,4 +3,5 @@ namespace GovernmentData\Model;
 
 interface ITemplate
 {
+	
 }
