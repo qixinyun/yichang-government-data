@@ -4,8 +4,8 @@ namespace GovernmentData\Model;
 class TemplateFactory
 {
     const MAPS = array(
-        IGovernmentData::TYPE['xk'] => 'GovernmentData\Model\XkTemplate',
-        IGovernmentData::TYPE['cf'] => 'GovernmentData\Model\CfTemplate'
+        IGovernmentData::TYPE['XK'] => 'GovernmentData\Model\XkTemplate',
+        IGovernmentData::TYPE['CF'] => 'GovernmentData\Model\CfTemplate'
     );
 
     public function getTemplate(string $type) : ITemplate
