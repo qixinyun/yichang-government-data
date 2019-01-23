@@ -3,6 +3,14 @@ namespace GovernmentData\Model;
 
 interface IGovernmentDataName
 {
+    const TYPE_PID_NAME = array(
+        IGovernmentData::TYPE_PID['XZGL'] => '行政管理类',
+        IGovernmentData::TYPE_PID['SFCP'] => '司法裁判类',
+        IGovernmentData::TYPE_PID['GGFW'] => '公共服务类',
+        IGovernmentData::TYPE_PID['SHJD'] => '社会监督类',
+        IGovernmentData::TYPE_PID['QTDL'] => '其他类'
+    );
+
     const TYPE_NAME = array(
         IGovernmentData::TYPE['FRXYXX'] => '法人信用信息',
         IGovernmentData::TYPE['ZRRXYXX'] => '自然人信用信息',

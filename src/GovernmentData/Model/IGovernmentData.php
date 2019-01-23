@@ -9,6 +9,14 @@ interface IGovernmentData extends IGovernmentDataName
         'ZRR' => 2
     );
 
+    const TYPE_PID = array(
+        'XZGL' => 'XZGL',
+        'SFCP' => 'SFCP',
+        'GGFW' => 'GGFW',
+        'SHJD' => 'SHJD',
+        'QTDL' => 'QTDL'
+    );
+
     const TYPE = array(
         'NULL' => '',
         'FRXYXX' => 'frxyxx',
