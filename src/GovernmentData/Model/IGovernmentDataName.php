@@ -4,6 +4,8 @@ namespace GovernmentData\Model;
 interface IGovernmentDataName
 {
     const TYPE_NAME = array(
+        IGovernmentData::TYPE['FRXYXX'] => '法人信用信息',
+        IGovernmentData::TYPE['ZRRXYXX'] => '自然人信用信息',
         IGovernmentData::TYPE['XK'] => '行政许可',
         IGovernmentData::TYPE['CF'] => '行政处罚',
         IGovernmentData::TYPE['QZ'] => '行政强制',

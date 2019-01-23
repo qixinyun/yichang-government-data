@@ -4,6 +4,8 @@ namespace GovernmentData\Model;
 class TemplateFactory
 {
     const MAPS = array(
+        IGovernmentData::TYPE['FRXYXX'] => 'GovernmentData\Model\FrxyxxTemplate',
+        IGovernmentData::TYPE['ZRRXYXX'] => 'GovernmentData\Model\ZrrxyxxTemplate',
         IGovernmentData::TYPE['XK'] => 'GovernmentData\Model\XkTemplate',
         IGovernmentData::TYPE['CF'] => 'GovernmentData\Model\CfTemplate',
         IGovernmentData::TYPE['QZ'] => 'GovernmentData\Model\QzTemplate',

@@ -11,6 +11,8 @@ interface IGovernmentData extends IGovernmentDataName
 
     const TYPE = array(
         'NULL' => '',
+        'FRXYXX' => 'frxyxx',
+        'ZRRXYXX' => 'zrrxyxx',
         'XK' => 'xk',
         'CF' => 'cf',
         'QZ' => 'qz',
