@@ -1,7 +1,7 @@
 <?php
 namespace GovernmentData\Model;
 
-class FrxyxxTemplate implements ITemplate
+class ZrrxyxxTemplate implements ITemplate
 {
 	const TEMPLATE = array(
 	    array('englishName'=>'xm', 'name'=>'姓名'),
